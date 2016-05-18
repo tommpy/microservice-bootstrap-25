@@ -1,7 +1,7 @@
-microservice-bootstrap
+microservice-bootstrap-25
 ======================
 
-[![Build Status](https://travis-ci.org/hmrc/microservice-bootstrap.svg)](https://travis-ci.org/hmrc/microservice-bootstrap) [ ![Download](https://api.bintray.com/packages/hmrc/releases/microservice-bootstrap/images/download.svg) ](https://bintray.com/hmrc/releases/microservice-bootstrap/_latestVersion)
+[![Build Status](https://travis-ci.org/hmrc/microservice-bootstrap-25.svg)](https://travis-ci.org/hmrc/microservice-bootstrap-25) [ ![Download](https://api.bintray.com/packages/hmrc/releases/microservice-bootstrap-25/images/download.svg) ](https://bintray.com/hmrc/releases/microservice-bootstrap-25/_latestVersion)
 
 This library implements a basic Play Global object and related functionality for frontend applications.
 
@@ -77,7 +77,7 @@ Add the following to your SBT build:
 ```scala
 resolvers += Resolver.bintrayRepo("hmrc", "releases")
 
-libraryDependencies += "uk.gov.hmrc" %% "microservice-bootstrap" % "[INSERT-VERSION]"
+libraryDependencies += "uk.gov.hmrc" %% "microservice-bootstrap-25" % "[INSERT-VERSION]"
 ```
 
 ## License ##
