@@ -1,5 +1,5 @@
 /*
- * Copyright 2015 HM Revenue & Customs
+ * Copyright 2016 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ import scala.util.{Failure, Success, Try}
 trait Utf8MimeTypes {
   self : Controller =>
 
-  override def JSON(implicit codec: Codec) = s"${MimeTypes.JSON};charset=utf-8"
+  override val JSON = s"${MimeTypes.JSON};charset=utf-8"
 
   override def HTML(implicit codec: Codec) = s"${MimeTypes.HTML};charset=utf-8"
 }
